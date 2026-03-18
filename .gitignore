@@ -1,7 +1,6 @@
 # Kernel build artifacts
 kernel/
 susfs4ksu/
-out/
 build.log
 
 # Editor

@@ -1,13 +1,12 @@
 diff --git a/kernel/Kbuild b/kernel/Kbuild
-index 690b62a9..8542c3f7 100644
+index 690b62a9..89319229 100644
 --- a/kernel/Kbuild
 +++ b/kernel/Kbuild
-@@ -3,7 +3,7 @@ kernelsu-objs += allowlist.o
+@@ -3,7 +3,6 @@ kernelsu-objs += allowlist.o
  kernelsu-objs += app_profile.o
  kernelsu-objs += apk_sign.o
  kernelsu-objs += sucompat.o
 -kernelsu-objs += syscall_hook_manager.o
-+kernelsu-objs += susfs.o
  kernelsu-objs += throne_tracker.o
  kernelsu-objs += pkg_observer.o
  kernelsu-objs += setuid_hook.o
